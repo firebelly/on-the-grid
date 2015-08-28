@@ -249,3 +249,19 @@ a {
   background: #ddd;
   padding: 4px;
 }
+.address,
+.description {
+  margin-top: .5em;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #222;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+.address br {
+  display: none;
+}
+
+.spots li {
+  margin-bottom: 1em;
+}
