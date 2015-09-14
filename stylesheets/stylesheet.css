@@ -263,7 +263,13 @@ a {
 }
 
 .spots li {
+  list-style: none;
   margin-bottom: 1em;
+  background: #F5FEF2;
+  padding: 1em;
+}
+.spots li:nth-child(odd) {
+  background: #efefef;
 }
 .photos {
   font-size: 14px;
