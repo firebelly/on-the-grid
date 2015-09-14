@@ -267,9 +267,19 @@ a {
   margin-bottom: 1em;
   background: #F5FEF2;
   padding: 1em;
+  position: relative;
 }
 .spots li:nth-child(odd) {
   background: #efefef;
+}
+.spots li.done:after {
+  content:'✔';
+  font: 80px/1 helvetica;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  color: yellow;
+  text-shadow: 2px 4px 0px rgba(0,0,0,.15);
 }
 .photos {
   font-size: 14px;
